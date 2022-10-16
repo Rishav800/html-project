@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook-Login or Signup</title>
+    <style>
+        body{
+            background-color: #f0f2f5;
+        }
+        .Container{
+            border: 2px solid none;
+            height: 344px;
+            width: 390px;
+            padding-top: 10px;
+            padding-left: 5px;
+            margin: 90px 51px 15px 820px;
+            background-color:#fff;
+            
+        }
+            
+    
+        .Phonenumber{
+            margin: 15px 0px 0px 15px;
+           padding: 12px 95px;
+           border-radius: 10px;
+           width: 156px;
+        }
+
+        .Password{
+            margin: 15px 0px 0px 15px;
+            padding: 12px 95px;
+            border-radius: 10px;
+            width: 156px;
+        }
+
+        .Phonenumber:hover{
+            border-color: aqua;
+        }
+
+        .Password:hover{
+            border-color: aqua;
+        }
+
+        .login{
+            margin: 15px 2px 2px 15px;
+            padding: 8px 175px;
+            border-radius: 10px;
+            color: white;
+            background-color: skyblue;
+            cursor: pointer;
+            width: 156px;
+        }
+      
+        .link{
+            margin-top: 8px;
+            text-align: center;
+        }
+
+        /* .login:hover{
+            background-color: skyblue;
+        } */
+        
+        .Newaccount{
+            margin: 5px 90px;
+            background-color:rgb(140,239,141);
+            padding:10px 16px;
+            width: 208px;
+            height: 50px;
+            font-size: 14px;
+            font-family:  "Uchen rev=2";
+        }
+
+        .Newaccount:hover{
+              background-color:rgb(5,116,7) ;
+              cursor: pointer;
+        }
+
+        .para1 p{
+            border: 2px solid none;
+            width: 311px;
+            margin-left: 850px;
+        }
+
+        .para2{
+            border: 2px solid none;
+            margin-top: -335px;
+            width: 500px;
+            padding-left: 231px;
+        }
+
+        .para2 h1{
+            color: rgb(7, 150, 207);
+            font-size: 391%;
+            font-family: 'Merriweather', serif;
+        }
+
+        .para3 p{
+            font-size: 28px;
+            font-family: 'Roboto', sans-serif;
+            margin-top: -26px;
+        }
+    </style>
+</head>
+<body>
+    <div class="Container">
+        <form action="/action.php">
+            <input type="number" placeholder="Your Mobile number" class="Phonenumber">
+            <br><br>
+            <input type="password" placeholder="Your password" class="Password">
+            <br><br>
+            <button type="button" class="login">Log In</button>
+            <div class="link">
+                <a href="https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjYwMDMyMDk4LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&amp;ars=facebook_login">Forgotten password?</a>
+            </div>
+            <hr>
+            <div class="New">
+                <button type="button" class="Newaccount">CREATE NEW ACCOUNT</button>
+            </div>
+        </form>
+    </div>
+    <div class="para1">
+        <p><b>Create a page</b> for a celebrity,brand or business</p>
+    </div>
+    <div class="para2">
+        <h1><b>facebook</b></h1>
+        <div class="para3">
+            <p>Facebook helps you connect and share</p>
+            <p>with the people in your life</p>
+        </div>
+
+    </div>
+</body>
+</html>
